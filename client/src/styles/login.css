@@ -1,0 +1,103 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100vh; */
+}
+
+.trello-main-logo {
+  display: block;
+  height: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 25px 40px 32px 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+  max-width: 400px;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-header {
+  text-align: center;
+  color: #5e6c84;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.login-input {
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 44px;
+  padding: 7px;
+  -webkit-transition: background-color 0.2s ease-in-out 0s,
+    border-color 0.2s ease-in-out 0s;
+  transition: background-color 0.2s ease-in-out 0s,
+    border-color 0.2s ease-in-out 0s;
+  margin: 0 0 1.2em;
+}
+
+.login-submit-button {
+  background: #5aac44;
+  border-radius: 0.3em;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0.8em;
+  font-size: 16px;
+  padding: 0.6em 1.3em !important;
+  position: relative;
+  text-decoration: none;
+  border: 0px;
+  width: 100%;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-submit-button:hover {
+  background-color: #61bd4f;
+}
+
+.bottom-form-links {
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.register-link {
+  text-decoration: none;
+  color: #0052cc;
+}
+
+.errors {
+  color: #eb5a46;
+  font-size: 14px;
+  line-height: 1.333;
+  margin-bottom: 5px;
+  font-weight: 600;
+}

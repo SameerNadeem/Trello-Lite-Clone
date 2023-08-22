@@ -1,0 +1,22 @@
+.edit-board-form .inline-form-text {
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 12px;
+  margin-right: 20px;
+}
+
+.edit-board-form .inline-form-input {
+  font-weight: 300;
+  font-size: 14px;
+  width: 100%;
+  background-color: #fafbfc;
+  border: 2px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 30px;
+  padding: 7px;
+}
+
+.edit-board-form .inline-form {
+  padding: 5px 12px;
+}
